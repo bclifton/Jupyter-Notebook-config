@@ -1,0 +1,161 @@
+/*=====================================================================================*/
+/*====HOME STYLES======================================================================*/
+/*=====================================================================================*/
+
+
+div#site {
+    font-family: 'Office Code Pro D';
+}
+
+
+/*=====================================================================================*/
+/*====NOTEBOOK STYLES==================================================================*/
+/*=====================================================================================*/
+
+#ipython_notebook img {
+  /*opacity: 0.25;*/
+}
+
+body.notebook_app {
+  background-color: white;
+  /*font-family: 'Source Code Pro';*/
+  font-family: 'Office Code Pro D';
+}
+
+span#notebook_name {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+
+div#pager-container pre {
+    font-family: 'Office Code Pro D';
+    font-size: 12px;
+    background-color: #FBFBFB;
+}
+
+/*--------- Notebook related ---------*/
+
+div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
+  /*font-family: 'Source Code Pro', monospace !important;*/
+  font-family: 'Office Code Pro D', monospace !important;
+  font-size: 12px;
+}
+
+div#notebook-container {
+  box-shadow: none;
+}
+
+div.input_area {
+  border-radius: 0px;
+  background: #FBFBFB;
+}
+
+.cell.code_cell.rendered, .cell.text_cell.unrendered {
+    padding-right: 20px;
+}
+
+.output_subarea.output_html.rendered_html.output_result {
+    margin: 0.2em 0;
+}
+
+div.cell.selected {
+    border-radius: 0px;
+    border-color: #D4D4D4;
+    -webkit-box-shadow: 0px 2px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 11px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 11px -5px rgba(0,0,0,0.75);
+}
+
+/*.edit_mode div.cell.selected {
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 2px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 11px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 11px -5px rgba(0,0,0,0.75);
+}*/
+
+.edit_mode div.cell.selected {
+    border-color: #6FBCFF;
+}
+
+option.introspection {
+  /*font-family: 'Source Code Pro';*/
+  font-family: 'Office Code Pro D';
+  font-size: 12px;
+}
+
+/*--------- Code Mirror related ---------*/
+
+.cm-s-ipython span.cm-comment {
+    color: #000000;
+    font-style: italic;
+    opacity: 0.3;
+}
+
+/*--------- Text Cells ---------*/
+
+.cell.text_cell pre {
+    font-family: 'Open Sans' !important;
+    letter-spacing: 0.2px;
+}
+.cell.text_cell p {
+  font-size: 12px;
+}
+
+
+span.cm-header {
+    font-family: 'Open Sans' !important;
+}
+
+/*--------- Pandas related ---------*/
+
+div.text_cell {
+  /*font-family: "Helvetica", sans-serif;*/
+  /*font-family: 'SFNS Display';*/
+  font-family: 'Open Sans';
+}
+
+table.dataframe {
+  /*font-family: 'Helvetica', sans-serif;*/
+  /*font-family: 'SFNS Display', 'Helvetica';*/
+  font-family: 'Office Code Pro D', monospace;
+  margin-left: -0.4em;
+  position: relative;
+  /*z-index: -1;*/
+}
+
+
+/* ------ More Dataframe styling ---------*/
+table.dataframe {
+  color: #505050;
+}
+.rendered_html th, .rendered_html td {
+  border: 1px solid #CCCCCC;
+}
+thead tr {
+  background-color: #E6E6E6 !important;
+}
+
+tbody tr:nth-child(odd) th {
+  background-color: #f1f1f1;
+}
+tbody tr:nth-child(even) th {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #EAF1F7;
+}
+
+
+/*.btn-default {
+    background-color: #ECECEC;
+}*/

@@ -22,7 +22,7 @@ The notification extension:
 
 `$ curl -L https://raw.githubusercontent.com/bclifton/Jupyter-Notebook-config/master/notify.js > $(jupyter --data-dir)/nbextensions/notify.js`
 
-Move the `.jupyter` and `.ipython` files to the 
+Move the files in the `.jupyter` and `.ipython` folders to the respective folders. 
 
 
 

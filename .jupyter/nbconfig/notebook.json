@@ -1,5 +1,6 @@
 {
   "load_extensions": {
-    "notify": true
+    "notify": true, 
+    "jupyter-gmaps/extension": true
   }
 }
